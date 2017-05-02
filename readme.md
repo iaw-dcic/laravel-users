@@ -1,11 +1,10 @@
+`composer create-project --prefer-dist laravel/laravel user`
 
 `php artisan make:auth`
 
 `php artisan migrate`
 
 `https://github.com/laravel/socialite`
-
-`composer require laravel/socialite`
 
 To get started with Socialite, use Composer to add the package to your project's dependencies:
 
@@ -76,7 +75,7 @@ class LoginController extends Controller
             $user = User::create([
                 'email' => $github->getEmail(),
                 'name' => $github->getName(),
-                'password' => bcrypt('password'),
+                'password' => '<no_pass>',
             ]);
         }
 

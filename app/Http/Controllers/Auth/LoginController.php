@@ -65,7 +65,7 @@ class LoginController extends Controller
             $user = User::create([
                 'email' => $github->getEmail(),
                 'name' => $github->getName(),
-                'password' => bcrypt('password'),
+                'password' => '<no_pass>',
             ]);
         }
 
