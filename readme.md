@@ -1,4 +1,4 @@
-```php
+```
 composer create-project --prefer-dist laravel/laravel user
 
 php artisan make:auth
