@@ -1,12 +1,12 @@
-`composer create-project --prefer-dist laravel/laravel user`
+```php
+composer create-project --prefer-dist laravel/laravel user
 
-`php artisan make:auth`
+php artisan make:auth
 
-`php artisan migrate`
+php artisan migrate
+```
 
-`https://github.com/laravel/socialite`
-
-To get started with Socialite, use Composer to add the package to your project's dependencies:
+To get started with [Socialite](https://github.com/laravel/socialite), use Composer to add the package to your project's dependencies:
 
     composer require laravel/socialite
 
